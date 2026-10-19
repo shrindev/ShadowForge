@@ -2,11 +2,12 @@
 
 **A fully local, offline Multi-Agent Desktop Automation System**
 
-**Author:** [Shrinjoy Ghosh](https://github.com/Gitersg) · **Repository:** [github.com/Gitersg/ShadowForge](https://github.com/Gitersg/ShadowForge)  
+**Author:** [Shrinjoy Ghosh](https://github.com/shrindev) · **Repository:** [github.com/shrindev/ShadowForge](https://github.com/shrindev/ShadowForge)  
 **License:** MIT — free to use and learn from; please keep author credit if you redistribute.
 
-ShadowForge is a modular multi-agent system that observes your desktop, scans folders, and runs reliable automations — with **zero cloud APIs and zero internet dependency** after setup.
+> **Note on username:** The GitHub username was previously Gitersg and has been updated to shrindev. All links and references have been corrected.
 
+ShadowForge is a modular multi-agent system that observes your desktop, scans folders, and runs reliable automations — with **zero cloud APIs and zero internet dependency** after setup.
 
 ---
 
@@ -17,7 +18,6 @@ ShadowForge is a modular multi-agent system that observes your desktop, scans fo
 - **Quick Actions** — reliable one-click automations (Win+D, Ctrl+S, Screenshot, Alt+Tab, and more)
 - **EasyOCR + Tesseract** — dual OCR engines with Windows Tesseract auto-detection
 - **Workflow context chaining** — agents pass results to each other automatically
-
 
 ---
 
@@ -44,12 +44,12 @@ Set an interval (1–10 seconds) and capture screenshots automatically while you
 ### Folder Scanner
 Enter or browse to **any folder path**. Get a full report: file count, total size, file types, categories, largest files, and duplicate groups. Every scan is fresh — no stale cached results.
 
-###  Quick Actions
+### Quick Actions
 Pick a preset action from a dropdown and run it after a 3-second countdown. No OCR required — works every time.
 
 Available actions: Show Desktop, Open Run, Open Explorer, Screenshot Now, Ctrl+S, Copy+Paste, Alt+Tab, F5, Select All, Type Custom Text, Custom Hotkey.
 
-###  Multi-Agent System
+### Multi-Agent System
 Vision, File, Automation, and Planner agents coordinated by an Orchestrator with message bus, task planner, executor, and plugin support.
 
 ---
@@ -312,7 +312,7 @@ Output: `dist/ShadowForge.exe`
 > **Note:** If you downloaded or cloned this repo, you do **not** need these commands. Use `INSTALL_AND_RUN.bat` or `python main.py` instead. These steps are only for publishing your own fork or copy.
 
 ```bash
-git clone https://github.com/Gitersg/ShadowForge.git
+git clone https://github.com/shrindev/ShadowForge.git
 cd ShadowForge
 
 # Make your changes, then:
@@ -352,8 +352,8 @@ git push -u origin main
 
 ## Author & Support
 
-**Built by Shrinjoy Ghosh ([@Gitersg](https://github.com/Gitersg))** — Kolkata, India · 2026  
-This Project Version is Explicitly Built for the Kaggle 5-Day AI Agents Vibe Coding Capstone 2026.
+**Built by Shrinjoy Ghosh ([@shrindev](https://github.com/shrindev))** — Kolkata, India · 2026  
+This version was built as part of the Kaggle 5-Day AI Agents Vibe Coding Capstone 2026.
 
 If ShadowForge helps you, a star on GitHub means a lot.
 
